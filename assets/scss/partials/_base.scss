@@ -1,0 +1,43 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    font-size: 16px;
+    line-height: 28px;
+    color: #333;
+}
+
+a {
+    color: #333;
+
+    &:active,
+    &:hover,
+    &:focus {
+        text-decoration: none;
+    }
+
+    &:hover {
+        color: $accent;
+    }
+}
+
+h1, h2, h3, h4 {
+    font-weight: 400;
+}
+
+#wrapper {
+    min-height: 100%;
+    position: relative;
+
+    #container {
+        padding-bottom: $footer-height + 50;
+    }
+}
+
+.accent-color {
+    color: $accent;
+}

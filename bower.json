@@ -1,0 +1,20 @@
+{
+  "name": "node.js-static-boilerplate",
+  "version": "0.0.1",
+  "homepage": "https://github.com/sonnyt/node.js-static-boilerplate",
+  "authors": [
+    "Sonny T. <mail@sonnyt.com>"
+  ],
+  "description": "Node.js Static Boilerplate",
+  "main": "app.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {},
+  "devDependencies": {}
+}

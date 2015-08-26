@@ -1,0 +1,44 @@
+{
+  "name": "node.js-static-boilerplate",
+  "version": "1.0.0",
+  "description": "Node.js Static Boilerplate",
+  "engines": {
+    "node": "0.10.x"
+  },
+  "scripts": {
+    "start": "node api/app.js"
+  },
+  "main": "api/app.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sonnyt/node.js-static-boilerplate.git"
+  },
+  "keywords": [
+    "Node.js"
+  ],
+  "author": "Sonny T. <mail@sonnyt.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sonnyt/node.js-static-boilerplate/issues"
+  },
+  "homepage": "https://github.com/sonnyt/node.js-static-boilerplate",
+  "dependencies": {
+    "app-module-path": "^1.0.4",
+    "cookie-parser": "^1.3.5",
+    "express": "^4.13.3",
+    "mongoose": "^4.1.2",
+    "nunjucks": "^1.3.4",
+    "passport": "^0.2.2",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "del": "^1.2.0",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-jscs": "^2.0.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-sass": "^2.0.4",
+    "gulp-uglify": "^1.2.0",
+    "gulp-watch": "^4.3.4"
+  }
+}

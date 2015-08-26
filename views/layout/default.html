@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="App">
+<head>
+{% include "./partials/head.html" %}
+</head>
+<body class="{{ bodyClass }}">
+    <div id="wrapper">
+        {% include "./partials/header.html" %}
+
+        <div id="container">
+            {% block content %}{% endblock %}
+        </div>
+
+        {% include "./partials/footer.html" %}
+    </div>
+
+    {% include "./partials/scripts.html" %}
+</body>
+</html>

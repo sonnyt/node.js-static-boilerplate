@@ -1,0 +1,18 @@
+<nav class="navbar header-navbar">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="nav navbar-nav navbar-right pull-right">
+                    {% if user %}
+                        <li><a href="/dashboard">{{user.name.full}}</a></li>
+                        <li><a href="/user/settings">Settings</a></li>
+                        <li><a href="/user/logout">Logout</a></li>
+                    {% else %}
+                        <li><a href="/user/login">Login</a></li>
+                        <li><a href="/user/signup">Signup</a></li>
+                    {% endif %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
