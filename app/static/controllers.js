@@ -3,7 +3,7 @@
 var Controllers = {};
 
 Controllers.homepage = function(req, res) {
-    res.render('app/homepage/index.html');
+    res.render('static/homepage.html');
 };
 
 module.exports = Controllers;
