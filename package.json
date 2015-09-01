@@ -6,9 +6,9 @@
     "node": "0.10.x"
   },
   "scripts": {
-    "start": "node api/app.js"
+    "start": "node app.js"
   },
-  "main": "api/app.js",
+  "main": "app.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/sonnyt/node.js-static-boilerplate.git"
